@@ -1,7 +1,14 @@
 aid: medall
 name: MedAll
-description: MedAll is a company surfaced as a portfolio company of seedcamp and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  MedAll is a UK-founded healthcare education platform on a mission to make medical education
+  radically accessible. It hosts live and on-demand courses, conferences, workshops, webinars and
+  training sessions for healthcare professionals, students and organisations, and provides event
+  management tooling for registrations, feedback forms, certificates, abstracts, schedules and
+  digital poster halls, alongside CME (continuing medical education), question banks and mobile apps
+  for iOS and Android. The platform is used by clinicians and institutions worldwide. As of this
+  enrichment pass MedAll publishes no public API, developer portal, SDKs or webhooks; this profile
+  captures its public identity and domain-security posture. Backed by Seedcamp.
 url: https://raw.githubusercontent.com/api-evangelist/medall/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +16,30 @@ x-backed-by:
 - seedcamp
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://medall.org/lib_aHdYKDVyntNTXkuN/0qn5wqfencthnohu.png?w=1200&h=630&fit=crop
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Healthcare
+- Medical Education
+- Education
+- Training
+- Events
+- Continuing Medical Education
+- HealthTech
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +48,17 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://medall.org
+  url: https://medall.org
+- type: SignUp
+  url: https://app.medall.org
+- type: TermsOfService
+  url: https://medall.org/terms
+- type: PrivacyPolicy
+  url: https://medall.org/privacy
+- type: DomainSecurity
+  url: security/medall-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
