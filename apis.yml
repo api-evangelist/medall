@@ -28,7 +28,7 @@ accessModel:
   generated: '2026-07-22'
   method: derived
 image: https://medall.org/lib_aHdYKDVyntNTXkuN/0qn5wqfencthnohu.png?w=1200&h=630&fit=crop
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-20'
 tags:
